@@ -16,15 +16,15 @@
 
         h1 {
             font-size: 5vw;
-            margin-top: 2vw;
+            margin-top: 3vw;
         }
 
         p {
-            font-size: 8vw;
+            font-size: 5vw;
             font-weight: 300;
             margin-left: 10%;
             margin-right: 10%;
-            margin-top: 1vw;
+            margin-top: 2vw;
         }
 
         .header {
@@ -46,7 +46,7 @@
 
         .image-container {
             text-align: center;
-            margin-top: 3vw;
+            margin-top: 4vw;
         }
 
         .centered-image {
@@ -54,31 +54,41 @@
             height: auto;
             display: block;
             margin: 0 auto;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 8vw;
-            }
-            p {
-                font-size: 12vw;
-            }
-            .centered-image {
-                max-width: 80%;
-            }
+            border-radius: 10px;
         }
 
         .button {
             background-color: #ff007e;
             color: white;
-            font-size: 4vw;
+            font-size: 6vw;
             padding: 1vw 2vw;
             text-decoration: none;
             display: inline-block;
-            margin-top: 3vw;
+            margin-top: 4vw;
             border: none;
             cursor: pointer;
             border-radius: 12px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 13vw;
+                margin-top: 4vw;
+            }
+            p {
+                font-size: 18vw;
+                margin-top: 2vw;
+            }
+            .centered-image {
+                max-width: 100%;
+                border-radius: 10px;
+            }
+            .button {
+                font-size: 15vw; /* Aumentei o tamanho da fonte do botão em telas menores */
+                padding: 1vw 2vw;
+                border-radius: 12px;
+                margin-top: 10vw;
+            }
         }
 
         .button:hover {
@@ -96,7 +106,6 @@
         <img class="centered-image" src="./Design sem nome (2).png" alt="Imagem Centralizada">
     </div>
 
-    <!-- Botão que abre o link em uma nova guia -->
-    <a href="https://bit.ly/FALE-COMIGO-7G" class="button" target="_blank">Clique aqui e fale comigo</a>
+    <a href="https://bit.ly/FALE-COMIGO-7G" class="button" target="_blank">Fale comigo</a>
 </body>
 </html>
