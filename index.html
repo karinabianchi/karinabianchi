@@ -15,15 +15,16 @@
         }
 
         h1 {
-            font-size: 36px;
+            font-size: 5vw;
+            margin-top: 2vw; /* Margem superior ajustada */
         }
 
         p {
-            font-size: 62px;
+            font-size: 8vw;
             font-weight: 300;
             margin-left: 10%;
             margin-right: 10%;
-            margin-top: 10px;
+            margin-top: 1vw; /* Margem superior ajustada */
         }
 
         .header {
@@ -45,7 +46,7 @@
 
         .image-container {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 3vw; /* Margem superior ajustada */
         }
 
         .centered-image {
@@ -57,23 +58,25 @@
 
         /* Media query para dispositivos móveis */
         @media (max-width: 768px) {
+            h1 {
+                font-size: 8vw;
+            }
             p {
-                font-size: 48px;
+                font-size: 12vw;
             }
             .centered-image {
                 max-width: 80%;
             }
         }
 
-        /* Estilos para o botão */
         .button {
             background-color: #ff007e;
             color: white;
-            font-size: 24px;
-            padding: 10px 30px;
+            font-size: 4vw;
+            padding: 1vw 2vw;
             text-decoration: none;
             display: inline-block;
-            margin-top: 40px;
+            margin-top: 3vw; /* Margem superior ajustada para o botão */
             border: none;
             cursor: pointer;
             border-radius: 12px;
@@ -88,12 +91,12 @@
     <div class="header">
         Promoção acaba <span class="highlight">amanhã</span>
     </div>
-    <p style="font-size: 62px;">Você está preparado para descobrir meus <span class="highlight">segredinhos</span>?</p>
+    <h1>Você está preparado para descobrir meus <span class="highlight">segredinhos</span>?</h1>
 
     <div class="image-container">
         <img class="centered-image" src="./Design sem nome (2).png" alt="Imagem Centralizada">
     </div>
 
-    <a href="https://bit.ly/FALE-COMIGO-7G" class="button">FALE COMIGO</a>
+    <a href="bit.ly/FALE-COMIGO-7G" class="button">Clique aqui</a>
 </body>
 </html>
